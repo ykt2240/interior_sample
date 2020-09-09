@@ -1,0 +1,212 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+  font-size: 62.5%;
+}
+body {
+  line-height: 1.5;
+  font-family: 'Noto Serif','Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic';
+  font-size: 1.6rem;
+  color: #333333;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+  -ms-interpolation-made: bicubic;
+}
+main {
+  display: block;
+}
+header {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -500px;
+  z-index: 10;
+}
+#global-nav {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: -webkit-space-between;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+#global-nav li a {
+  color: #ffffff;
+}
+.heading-wrapper {
+  margin-top: 80px;
+}
+#header-inner, .content-wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+#mainvisual {
+  position: relative;
+  width: 100vw;
+}
+.btn {
+  width: 266px;
+  border: 1px solid #080707;
+}
+.btn a {
+  padding: 20px 30px;
+  background: url("../images/index_ic01.png") no-repeat right 30px center;
+  transition: 0.5s;
+}
+.btn a:hover {
+  background: url("../images/index_ic02.png") no-repeat right 30px center #000000;
+  color: #ffffff;
+}
+a {
+  display: block;
+  color: #333333;
+  text-decoration: none;
+}
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -462px;
+  margin-top: -52px;
+  z-index: 10;
+}
+h2 {
+  padding: 88px 0;
+  background-color: #eed9d9;
+  font-size: 3.0rem;
+  text-align: center;
+}
+h3 {
+  font-size: 4.8rem;
+}
+.bx-wrapper {
+  margin: 0 !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  background: none !important;
+}
+#bx-slider img{
+  width: 100% !important;
+  height: 100vh !important;
+}
+#zoom-img {
+    width: 100%;
+    min-height: 100vh;
+}
+#lead-content {
+  text-align: center;
+}
+#lead {
+  margin-top: 80px;
+  font-size: 2.4rem;
+}
+#lead + p {
+  margin-top: 40px;
+}
+.product-list {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.product-list li {
+  width: 320px;
+}
+#product-content .btn {
+  margin-top: 50px;
+}
+.service-list {
+  margin-top: 40px;
+}
+.service-list li {
+  position: relative;
+}
+.service-list li .img-area {
+  max-width: 890px;
+}
+.service-list li + li {
+  margin-top: 200px;
+}
+.service-list li .right-box {
+  float: right;
+}
+.service-list li .text-area {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  -webkit-transform: translateY(-50%); /* Safari用 */
+  transform: translateY(-50%);
+  padding: 30px 34px 40px;
+  background-color: #e1e1e1;
+}
+.service-list li .left-box {
+  margin-left: -500px;
+}
+.number {
+  display: inline;
+  font-size: 2.4rem;
+  border-bottom: 1px solid #333333;
+}
+.service-list li h3 + p {
+  margin-top: 40px;
+}
+.heading01:after {
+  content: "インテリア";
+  display: inline-block;
+  padding-left: 50px;
+  font-size: 2.4rem;
+}
+.heading02:after {
+  content: "服";
+  display: inline-block;
+  padding-left: 50px;
+  font-size: 2.4rem;
+}
+.heading03:after {
+  content: "食事";
+  display: inline-block;
+  padding-left: 50px;
+  font-size: 2.4rem;
+}
+.service-list li .btn {
+  margin-top: 80px;
+}
+.contact-area {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: -webkit-space-between;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.contact-area .left-box {
+  width: 400px;
+}
+.contact-area .right-box {
+  width: 400px;
+}
+.contact-btn-list li .btn {
+  width: 350px;
+}
+.contact-btn-list li .btn a {
+  padding: 16px;
+}
+.contact-btn-list li + li {
+  margin-top: 35px;
+}
+.contact-btn-list li .btn span {
+  font-size: 2.0rem;
+}
+.service-list li:after {
+  display: block;
+  clear: both;
+  content: "";
+}
